@@ -9,16 +9,16 @@ namespace _26._Remove_Duplicates_from_Sorted_Array
         {
             if (nums.Length == 0) return 0;
             if (nums.Length == 1) return 1;
-            int i = 1;
-            foreach (int num in nums)
+            int i = 1, j = 1;
+            while(i< nums.Length)
             {
-                if (nums[i-1] < num)
+                if (nums[i - 1] < nums[i])
                 {
-                    nums[i] = num;
-                    ++i;
+                    nums[j++] = nums[i];
                 }
+                i++;
             }
-            return i;
+            return j;
         }
         static void Main(string[] args)
         {
