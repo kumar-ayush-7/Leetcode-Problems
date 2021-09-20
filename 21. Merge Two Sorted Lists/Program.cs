@@ -26,20 +26,8 @@ namespace _21._Merge_Two_Sorted_Lists
                 return l2;
             else if (l2 == null)
                 return l1;
-            ListNode ptr = new ListNode(int.MinValue), res;
-            if(l1.val > l2.val)
-            {
-                ptr.next = l2;
-                l2 = l2.next;
-            }
-            else
-            {
-                ptr.next = l1;
-                l1 = l1.next;
-            }
+            ListNode ptr = new ListNode(), res;
             res = ptr;
-            ptr = ptr.next;
-
             while(l1 != null && l2 != null)
             {
                 if (l1.val > l2.val)
