@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "26. Remove Duplicates from 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "27. Remove Element", "27. Remove Element\27. Remove Element.csproj", "{E543BBFA-D7DF-4B95-9126-179E01353EF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "28. Implement strStr()", "28. Implement strStr()\28. Implement strStr().csproj", "{DC4506B5-D86F-4D8C-B7ED-26B056101DE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "28. Implement strStr()", "28. Implement strStr()\28. Implement strStr().csproj", "{DC4506B5-D86F-4D8C-B7ED-26B056101DE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "35. Search Insert Position", "35. Search Insert Position\35. Search Insert Position.csproj", "{6F24CBEB-01B2-481E-B831-D0427F7ECECE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{DC4506B5-D86F-4D8C-B7ED-26B056101DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC4506B5-D86F-4D8C-B7ED-26B056101DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC4506B5-D86F-4D8C-B7ED-26B056101DE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F24CBEB-01B2-481E-B831-D0427F7ECECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F24CBEB-01B2-481E-B831-D0427F7ECECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F24CBEB-01B2-481E-B831-D0427F7ECECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F24CBEB-01B2-481E-B831-D0427F7ECECE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
