@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "58. Length of Last Word", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "66. Plus One", "66. Plus One\66. Plus One.csproj", "{C6EF92DE-9783-43CA-924E-4B7F4F07E299}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "67. Add Binary", "67. Add Binary\67. Add Binary.csproj", "{BB88A22C-6E2D-45D5-9E64-364FC8DCBE24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{C6EF92DE-9783-43CA-924E-4B7F4F07E299}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6EF92DE-9783-43CA-924E-4B7F4F07E299}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6EF92DE-9783-43CA-924E-4B7F4F07E299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB88A22C-6E2D-45D5-9E64-364FC8DCBE24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB88A22C-6E2D-45D5-9E64-364FC8DCBE24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB88A22C-6E2D-45D5-9E64-364FC8DCBE24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB88A22C-6E2D-45D5-9E64-364FC8DCBE24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
