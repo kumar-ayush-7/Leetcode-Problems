@@ -23,8 +23,8 @@ namespace _70._Climbing_Stairs
             return Second;
         }
 
-        // creating a dp array which will only be till no of steps <= 10 
-        //static int[] dp = new int[50];
+        // creating a dp array which will only be valid till no of steps <= 46 
+        //static int[] dp = new int[46];
         //public static int ClimbStairs(int n)
         //{
 
