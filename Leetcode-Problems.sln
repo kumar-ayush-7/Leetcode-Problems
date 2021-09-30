@@ -35,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "69. Sqrt(x)", "69. Sqrt(x)\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "70. Climbing Stairs", "70. Climbing Stairs\70. Climbing Stairs.csproj", "{5E4CBBD9-F5AB-49FE-86B6-921A5E64A1DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "83. Remove Duplicates from Sorted List", "83. Remove Duplicates from Sorted List\83. Remove Duplicates from Sorted List.csproj", "{FBE28A60-CC7A-4560-BB4D-20F362D1B0D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "83. Remove Duplicates from Sorted List", "83. Remove Duplicates from Sorted List\83. Remove Duplicates from Sorted List.csproj", "{FBE28A60-CC7A-4560-BB4D-20F362D1B0D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "88. Merge Sorted Array", "88. Merge Sorted Array\88. Merge Sorted Array.csproj", "{B06DC11B-9CFE-47D8-A96E-EF0193180896}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{FBE28A60-CC7A-4560-BB4D-20F362D1B0D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBE28A60-CC7A-4560-BB4D-20F362D1B0D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBE28A60-CC7A-4560-BB4D-20F362D1B0D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B06DC11B-9CFE-47D8-A96E-EF0193180896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B06DC11B-9CFE-47D8-A96E-EF0193180896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B06DC11B-9CFE-47D8-A96E-EF0193180896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B06DC11B-9CFE-47D8-A96E-EF0193180896}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
