@@ -65,29 +65,22 @@ namespace _100._Same_Tree
         //}
 
         //normal recursive method
-        public static bool IsSameTree(TreeNode tree1, TreeNode tree2)
+        public static bool IsSameTree(TreeNode p, TreeNode q)
         {
-            if ((tree1 != null && tree2 == null) || (tree1 == null && tree2 != null))
+            if ((p != null && q == null) || (p == null && q != null))
                 return false;
-            else
-                return Inorder(tree1, tree2);
-
-        }
-        public static bool Inorder(TreeNode tree1, TreeNode tree2)
-        {
-            if ((tree1 != null && tree2 == null) || (tree1 == null && tree2 != null))
-                return false;
-            else if (tree1 != null && tree2 != null)
+            else if (p != null && q != null)
             {
-                if (!Inorder(tree1.left, tree2.left))
+                if (!IsSameTree(p.left, q.left))
                     return false;
-                if (tree1.val != tree2.val)
+                if (p.val != q.val)
                     return false;
-                if (!Inorder(tree1.right, tree2.right))
+                if (!IsSameTree(p.right, q.right))
                     return false;
 
             }
             return true;
+
         }
         static void Main(string[] args)
         {
