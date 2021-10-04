@@ -20,21 +20,28 @@ namespace _104._Maximum_Depth_of_Binary_Tree
         {
             return new TreeNode(val);
         }
-        public static int len = 0, maxLen = 0;
+        //leetcode solution
         public static int MaxDepth(TreeNode root)
         {
-            if (root != null)
-            {
-                ++len;
-                MaxDepth(root.left);
-                if (len > maxLen)
-                    maxLen = len;
-                MaxDepth(root.right);
-                --len;
-            }
-            return maxLen;
+            if (root == null)
+                return 0;
+            return Math.Max(MaxDepth(root.left), MaxDepth(root.right)) + 1;
         }
-        static void Main(string[] args)
+            //public static int len = 0, maxLen = 0;
+            //public static int MaxDepth(TreeNode root)
+            //{
+            //    if (root != null)
+            //    {
+            //        ++len;
+            //        MaxDepth(root.left);
+            //        MaxDepth(root.right);
+            //        if (len > maxLen)
+            //            maxLen = len;
+            //        --len;
+            //    }
+            //    return maxLen;
+            //}
+            static void Main(string[] args)
         {
             TreeNode root = GetNodeReference(1);
             TreeNode child1 = GetNodeReference(2);
