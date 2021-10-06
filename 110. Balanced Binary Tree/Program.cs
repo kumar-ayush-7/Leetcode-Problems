@@ -21,21 +21,43 @@ namespace _110._Balanced_Binary_Tree
         {
             return new TreeNode(val);
         }
+        //Bottoms up approach O(n)
         public static bool IsBalanced(TreeNode root)
         {
             if (root == null)
                 return true;
-            if (Math.Abs(Diff(root.left) - Diff(root.right)) > 1)
-                return false;
-            else
-                return IsBalanced(root.left) && IsBalanced(root.right);
+            return Diff(root) != -1;
+            
         }
         public static int Diff(TreeNode root)
         {
             if (root == null)
                 return 0;
-            return Math.Max( Diff(root.left), Diff(root.right)) + 1;
+            int left = Diff(root.left);
+            int right = Diff(root.right);
+            int bf = Math.Abs(left - right);
+            if (bf > 1 || left > 1 || right > 1)
+                return -1;
+            else
+                return Math.Max(left, right) + 1;
         }
+
+        //Top down approach O(n^2)
+        //public static bool IsBalanced(TreeNode root)
+        //{
+        //    if (root == null)
+        //        return true;
+        //    if (Math.Abs(Diff(root.left) - Diff(root.right)) > 1)
+        //        return false;
+        //    else
+        //        return IsBalanced(root.left) && IsBalanced(root.right);
+        //}
+        //public static int Diff(TreeNode root)
+        //{
+        //    if (root == null)
+        //        return 0;
+        //    return Math.Max( Diff(root.left), Diff(root.right)) + 1;
+        //}
         static void Main(string[] args)
         {
             TreeNode root = GetNodeReference(1);
