@@ -21,21 +21,27 @@ namespace _111._Minimum_Depth_of_Binary_Tree
         {
             return new TreeNode(val);
         }
-        public static int min = int.MaxValue;
+        public int min = int.MaxValue;
         public static int MinDepth(TreeNode root)
         {
+            if (root == null)
+                return 0;
+            Program p = new Program();
             int depth = 1;
-            Min(root, depth);
-            return min;
+            Min(root, depth, p);
+            return p.min;
         }
-        public static void Min(TreeNode root, int depth)
+        public static void Min(TreeNode root, int depth, Program p)
         {
-            if (root.left == null && root.right == null && depth < min)
-                min = depth;
-            else if(root.left != null)
-                Min(root.left, depth + 1);
-            else if (root.right != null)
-                Min(root.right, depth + 1);
+            if (root.left == null && root.right == null && depth < p.min)
+                p.min = depth;
+            else
+            {
+                if (root.left != null)
+                    Min(root.left, depth + 1, p);
+                if (root.right != null)
+                    Min(root.right, depth + 1, p);
+            }
 
         }
         static void Main(string[] args)
@@ -53,10 +59,10 @@ namespace _111._Minimum_Depth_of_Binary_Tree
 
             root.left = child1;
             root.right = child2;
-            //child1.left = child3;
-            //child1.right = child4;
-            child2.left = child5;
-            child2.right = child6;
+            child1.left = child3;
+            child1.right = child4;
+            //child2.left = child5;
+            //child2.right = child6;
             //child3.left = _7;
             //child3.right = _8;
 
