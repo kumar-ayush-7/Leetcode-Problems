@@ -21,29 +21,40 @@ namespace _111._Minimum_Depth_of_Binary_Tree
         {
             return new TreeNode(val);
         }
-        public int min = int.MaxValue;
-        public static int MinDepth(TreeNode root)
+        //better approach
+        public static int Mindepth(TreeNode root)
         {
             if (root == null)
                 return 0;
-            Program p = new Program();
-            int depth = 1;
-            Min(root, depth, p);
-            return p.min;
+            int left = Mindepth(root.left);
+            int right = Mindepth(root.right);
+            return (left == 0 || right == 0) ? left + right + 1 : Math.Min(left, right) + 1;
         }
-        public static void Min(TreeNode root, int depth, Program p)
-        {
-            if (root.left == null && root.right == null && depth < p.min)
-                p.min = depth;
-            else
-            {
-                if (root.left != null)
-                    Min(root.left, depth + 1, p);
-                if (root.right != null)
-                    Min(root.right, depth + 1, p);
-            }
 
-        }
+        //novice approach 
+        //public int min = int.maxvalue;
+        //public static int mindepth(TreeNode root)
+        //{
+        //    if (root == null)
+        //        return 0;
+        //    program p = new program();
+        //    int depth = 1;
+        //    min(root, depth, p);
+        //    return p.min;
+        //}
+        //public static void min(treenode root, int depth, program p)
+        //{
+        //    if (root.left == null && root.right == null && depth < p.min)
+        //        p.min = depth;
+        //    else
+        //    {
+        //        if (root.left != null)
+        //            min(root.left, depth + 1, p);
+        //        if (root.right != null)
+        //            min(root.right, depth + 1, p);
+        //    }
+
+        //}
         static void Main(string[] args)
         {
             TreeNode root = GetNodeReference(3);
@@ -66,7 +77,7 @@ namespace _111._Minimum_Depth_of_Binary_Tree
             //child3.left = _7;
             //child3.right = _8;
 
-            Console.WriteLine(MinDepth(root));
+            Console.WriteLine(Mindepth(root));
         }
     }
 }
