@@ -36,7 +36,7 @@ namespace _110._Balanced_Binary_Tree
             int left = Diff(root.left);
             int right = Diff(root.right);
             int bf = Math.Abs(left - right);
-            if (bf > 1 || left > 1 || right > 1)
+            if (bf > 1 || left == -1 || right == -1)
                 return -1;
             else
                 return Math.Max(left, right) + 1;
