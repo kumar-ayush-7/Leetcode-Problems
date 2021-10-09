@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "153. Find Minimum in Rotate
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "154. Find Minimum in Rotated Sorted Array II", "154. Find Minimum in Rotated Sorted Array II\154. Find Minimum in Rotated Sorted Array II.csproj", "{576A0682-CACF-40F9-B9C8-4660F504B116}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "112. Path Sum", "112. Path Sum\112. Path Sum.csproj", "{2B1ACC0F-8DED-40AC-9F46-DA29CA64CDC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +173,10 @@ Global
 		{576A0682-CACF-40F9-B9C8-4660F504B116}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{576A0682-CACF-40F9-B9C8-4660F504B116}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{576A0682-CACF-40F9-B9C8-4660F504B116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B1ACC0F-8DED-40AC-9F46-DA29CA64CDC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B1ACC0F-8DED-40AC-9F46-DA29CA64CDC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B1ACC0F-8DED-40AC-9F46-DA29CA64CDC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B1ACC0F-8DED-40AC-9F46-DA29CA64CDC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
