@@ -51,7 +51,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "108. Convert Sorted Array t
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "110. Balanced Binary Tree", "110. Balanced Binary Tree\110. Balanced Binary Tree.csproj", "{49AF93BE-D56E-4651-BE50-A1057603FCCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "111. Minimum Depth of Binary Tree", "111. Minimum Depth of Binary Tree\111. Minimum Depth of Binary Tree.csproj", "{AE3C57E6-543D-40CA-9A44-8935C675823F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "111. Minimum Depth of Binary Tree", "111. Minimum Depth of Binary Tree\111. Minimum Depth of Binary Tree.csproj", "{AE3C57E6-543D-40CA-9A44-8935C675823F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "153. Find Minimum in Rotated Sorted Array", "153. Find Minimum in Rotated Sorted Array\153. Find Minimum in Rotated Sorted Array.csproj", "{34C69227-B0A7-4AEB-BF11-D86F124825FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{AE3C57E6-543D-40CA-9A44-8935C675823F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE3C57E6-543D-40CA-9A44-8935C675823F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE3C57E6-543D-40CA-9A44-8935C675823F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34C69227-B0A7-4AEB-BF11-D86F124825FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C69227-B0A7-4AEB-BF11-D86F124825FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C69227-B0A7-4AEB-BF11-D86F124825FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C69227-B0A7-4AEB-BF11-D86F124825FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
