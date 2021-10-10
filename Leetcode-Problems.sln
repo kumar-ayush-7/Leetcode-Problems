@@ -53,11 +53,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "110. Balanced Binary Tree",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "111. Minimum Depth of Binary Tree", "111. Minimum Depth of Binary Tree\111. Minimum Depth of Binary Tree.csproj", "{AE3C57E6-543D-40CA-9A44-8935C675823F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "153. Find Minimum in Rotated Sorted Array", "153. Find Minimum in Rotated Sorted Array\153. Find Minimum in Rotated Sorted Array.csproj", "{34C69227-B0A7-4AEB-BF11-D86F124825FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "153. Find Minimum in Rotated Sorted Array", "153. Find Minimum in Rotated Sorted Array\153. Find Minimum in Rotated Sorted Array.csproj", "{34C69227-B0A7-4AEB-BF11-D86F124825FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "154. Find Minimum in Rotated Sorted Array II", "154. Find Minimum in Rotated Sorted Array II\154. Find Minimum in Rotated Sorted Array II.csproj", "{576A0682-CACF-40F9-B9C8-4660F504B116}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "154. Find Minimum in Rotated Sorted Array II", "154. Find Minimum in Rotated Sorted Array II\154. Find Minimum in Rotated Sorted Array II.csproj", "{576A0682-CACF-40F9-B9C8-4660F504B116}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "112. Path Sum", "112. Path Sum\112. Path Sum.csproj", "{2B1ACC0F-8DED-40AC-9F46-DA29CA64CDC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "112. Path Sum", "112. Path Sum\112. Path Sum.csproj", "{2B1ACC0F-8DED-40AC-9F46-DA29CA64CDC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "118. Pascal's Triangle", "118. Pascal's Triangle\118. Pascal's Triangle.csproj", "{9C8ED432-570B-4542-A8F2-F8EC8D6EA95B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,10 @@ Global
 		{2B1ACC0F-8DED-40AC-9F46-DA29CA64CDC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B1ACC0F-8DED-40AC-9F46-DA29CA64CDC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B1ACC0F-8DED-40AC-9F46-DA29CA64CDC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C8ED432-570B-4542-A8F2-F8EC8D6EA95B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C8ED432-570B-4542-A8F2-F8EC8D6EA95B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C8ED432-570B-4542-A8F2-F8EC8D6EA95B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C8ED432-570B-4542-A8F2-F8EC8D6EA95B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
